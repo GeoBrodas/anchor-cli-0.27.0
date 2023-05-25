@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+refresh = "AWHB3t2wToeEkSXNBMJuf8qWuYURcrJcuZ8Lb3gQ2wt2"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/geobrodas/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
